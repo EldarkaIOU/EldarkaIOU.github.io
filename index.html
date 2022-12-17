@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body div {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+position: relative;
+      width: 350px;
+      margin-top: 200px;
+border-radius: 20px;
+color: white;
+
+    }
+    input {
+      margin-top: 5px;
+      width: 200px;
+      height: 30px;
+      border-radius: 10px;
+      border-color: red;
+      background-color: inherit;
+      color: white;
+    }
+
+    .as:focus {
+      outline: 3px;
+      border-width: 5px;
+
+    }
+    .as:hover {
+      outline: 3px;
+      border-width: 5px;
+
+    }
+
+    body {
+      background-image: url("1.jpg");
+      background-size: cover;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+a {
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: white;
+}
+.aa {
+  top: -200px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #AD66D4;
+  z-index: -2;
+  opacity: 0.6;
+
+}
+::placeholder {
+  color: white;
+  font-size: 15px  ;
+}
+
+#login {
+  font-size: 20px;
+  color: red;
+}
+#active_name {
+  font-size: 20px;
+  color: red;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="dd">
+
+    <h1 id="reg">Регистрация</h1>
+    <input type="text" id="name" placeholder="Введите логин" class="as">
+    <input type="password" id="password" placeholder="Введите пароль" class="as">
+    <input type="password" id="password1" placeholder="Подтвердите пароль" class="as">
+    <input type="button" value="Регистрация" onclick="regist()" class="as">
+
+    <h1 id='active_name'></h1>
+    <h1 id='login'></h1>
+    <a href="2.html">Уже есть аккаунт</a>
+    <div class="aa">
+    </div>
+      </div>
+  </body>
+  <script src="2.js"></script>
+</html>

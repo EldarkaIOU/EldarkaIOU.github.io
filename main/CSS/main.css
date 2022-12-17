@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  scroll-behavior: smooth;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+#HOME {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+#ART {
+  mix-blend-mode: multiply;
+  background-image: url(../image/6.jpg);
+  background-size: cover;
+}
+#GAMES {
+  background-color: #f2f2f2;
+}
+#BUY {
+  background-color: rgb(24, 24, 24);
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(24, 24, 24);
+}
+
+hr {
+  margin-top: 10px;
+  color: white;
+  background-color: white;
+
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  background-image: url(../image/2.png);
+  background-size: cover;
+}
+
+.cabinet {
+  width: 50px;
+  height: 50px;
+  background-image: url(../image/3.png);
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+width: 600px;
+height: 50px;
+background-color: rgb(24, 24, 24);
+}
+
+nav a {
+  padding-top: 15px;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+}
+
+nav a:hover {
+  color: rgb(255, 105, 0);
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+}
+
+.text {
+  position: relative;
+  width: 300px;
+  height: 250px;
+
+}
+
+
+.image {
+  width: 550px;
+  height: 550px;
+  background-image: url(../image/5.png);
+  background-size: cover;
+}
+
+.text button {
+  width: 100%;
+height: 60px;
+background: red;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+position: absolute;
+bottom: 0;
+border: none;
+border-radius: 5px;
+}
+.text h3 {
+  font-size: 30px;
+  color: red;
+}
+.text p {
+font-size: 20px;
+}
+
+.contenttwo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.texttwo {
+  width: 400px;
+  height: 50px;
+}
+.maintwo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  height: 60%;
+
+}
+
+.block {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 400px;
+
+}
+
+#burger1 {
+  background-image: url(../image/1.png);
+  background-size: cover;
+}
+#burger2 {
+  background-image: url(../image/2.png);
+  background-size: cover;
+}
+#burger3 {
+  background-image: url(../image/3.png);
+  background-size: cover;
+}
+
+.block p {
+  font-size: 25px;
+  position: absolute;
+  color: white;
+  text-shadow: 5px 5px 5px #000;
+  font-weight: bold;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 40%;
+}
+.texttwo p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.textthree p {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenthree {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mainthree {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 75%;
+  height: 60%;
+}
+
+.bloc {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+}
+.bl {
+  position: absolute;
+  background-color: red;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+}
+.bl p {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#povar1 {
+  background-image: url(../image/4.png);
+  background-size: cover;
+}
+#povar2 {
+  background-image: url(../image/6.png);
+  background-size: cover;
+}
+#povar3 {
+  background-image: url(../image/8.jpg);
+  background-size: cover;
+}
+
+
+
+.contentfour {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textfour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 400px;
+ position: relative;
+ top: -250px;
+}
+
+.blocklogo {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+.dd {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 200px;
+}
+#web {
+  top:-280px;
+}
+
+@media (max-width: 520px){
+  * {
+    zoom: 0.5;
+  }
